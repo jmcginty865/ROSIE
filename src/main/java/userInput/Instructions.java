@@ -17,6 +17,4 @@ public class Instructions {
         System.out.println("What math function would you like to do?");
     }
 
-//    long amountOfNumbers = Long.valueOf(input.input());
-//        return amountOfNumbers;
 }

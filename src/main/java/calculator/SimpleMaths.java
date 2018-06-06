@@ -5,35 +5,26 @@ import userInput.Instructions;
 
 public class SimpleMaths{
 
-    Instructions intro;
-
-    public SimpleMaths(){
-     this.intro = new Instructions();
-    }
-
-
-//    private long amountOfNumbersAdded = intro.calculatorOption();
     private long firstNum;
     private long secondNum;
     private long sum = 0;
 
-    public long addNums(){
-
+    public long addNums(long firstNum, long secondNum){
         sum = firstNum + secondNum;
         return sum;
     }
 
-    public long subtractNums(){
+    public long subtractNums(long firstNum, long secondNum){
         sum = firstNum - secondNum;
         return sum;
     }
 
-    public long multipyNums(){
+    public long multipyNums(long firstNum, long secondNum){
         sum = firstNum * secondNum;
         return sum;
     }
 
-    public long divideNums(){
+    public long divideNums(long firstNum, long secondNum){
         sum = firstNum/secondNum;
         return sum;
     }
